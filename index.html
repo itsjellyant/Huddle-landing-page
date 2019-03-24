@@ -5,40 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <!-- 
-    link main
-    link fonts
-   -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <title>Frontend Mentor | Huddle landing page with split benefits section</title>
 </head>
 <body>
-  <!-- The introductory AKA header, this is using a picture element so the main image is scalable -->
+  <div class="container">
+  <!-- The header -------------------------------------------------------------------------------- -->
   <header>
     <nav>
       <ul>
-        <li><img src="" alt="The logo of the site, Huddle" id="the-main-logo"></li>
+        <li><img src="images/logo.svg" alt="The logo of the site, Huddle" id="the-main-logo"></li>
         <li id="call-to-action-button" class="accent-color">Try it free</li>
       </ul>
     </nav>
     <article>
-      <h1 id="main-heading">>Build The Community Your Fans Will Love</h1>
+      <h1 id="main-heading">Build The Community Your Fans Will Love</h1>
       <p class="paragraph-sentences">Huddle re-imagines the way we build communities. You have a voice, but so does 
       your audience. Create connections with your users as you engage in genuine discussion.</p>
-      <picture>
-        <source >
-        <img src="" alt="">
-      </picture>
+      <img src="images/screen-mockups.svg" alt="Image of a browser that is compatible with mobile and desktop" class="lol">
     </article>
   </header>
-  <!-- Main section, this is using a picture element so the image beconmes more scalable -->
+  <!-- Main section -------------------------------------------------------------------------------->
   <main>
     <section>
-      <picture>
-        <source>
-          <img src="" alt="">
-      </picture>
+        <img src="images/illustration-your-users.svg" alt="People communicating and sharing ideas" class="lol">
       <header>
-        <h2 class="second-headings">>Grow Together</h2>
+        <h2 class="second-headings">Grow Together</h2>
       </header>
       <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
       Think of the insightful conversations you miss out on with a feedback form.</p>
@@ -67,7 +62,7 @@
       <input type="email" name="user-email" placeholder="email@example.com">
     </form>
     <section>
-      <img src="" alt="Huddle logo, placed inside the footer">
+      <img src="images/logo.svg" alt="Huddle logo, placed inside the footer">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt risus eget 
       vestibulum. Integer vel ligula dictum.</p>
       <i class="fab fa-facebook"></i>
@@ -82,8 +77,9 @@
         <li><a href="#">Contact Us</a></li>
       </nav>
       <p>&copy; 2018 Huddle Copyright</p>
-      <p class="attribution">This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉</p>
+      <img src="images/bg-footer-mobile.png" srcset="images/bg-footer-mobile.png 375w, images/bg-footer-desktop.png 1440w" alt="Footer image">
     </section>
   </footer>
+ </div>
 </body>
 </html>

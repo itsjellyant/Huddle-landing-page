@@ -1,0 +1,56 @@
+:root {
+/* fonts */
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+/* colors */
+    --accent-color:hsl(322, 100%, 66%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --gray-blue: hsl(208, 11%, 55%);
+/* spacing */
+    --spacing: 7%;
+}
+
+.container {
+    margin: 10% var(--spacing);
+    
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+   
+}
+
+
+li {
+     display: inline-block;
+}
+
+#the-main-logo {
+    width: 55%;
+    float: left;
+}
+
+#call-to-action-button {
+    border: 2px solid;
+    border-color: var(--accent-color);
+    padding: 2%;
+    color: var(--accent-color);
+    width: 60px;
+    text-align: center;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-family: var(--body-font);
+    font-size: .6em;
+   
+
+}
+
+.lol {
+    width: 30px;
+}
+
