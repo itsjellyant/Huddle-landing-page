@@ -13,10 +13,19 @@
     --vertical-spacing: 70px;
 }
 
+footer p {
+    margin-bottom: 0;
+}
+
 .container,
 main,
-#button-wrapper {
+.footer-container{
     margin: 10% var(--spacing);
+    
+}
+
+#button-wrapper {
+    margin: 30% var(--spacing)
 }
 
 ul {
@@ -113,12 +122,86 @@ li {
     display: block;
     margin: 0 auto;
     width: 220px;
-    height: 50px;
+    height: 42px;
     border: none;
     border-radius: 5px;
     color: var(--white);
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     font-weight: 700;
     font-size: .8rem;
-    background: linear-gradient(45deg, hsl(322, 100%, 66%), #ffffff -40%);
+    background: linear-gradient(50deg, #ffffff -190%, hsl(322, 100%, 66%) 80%, #ffffff 150%);
+    margin-top: 40px;
 }
+
+footer {
+    background-color: var(--dark-cyan);
+    color: white;
+}
+
+#footer-header {
+    font-family: var(--heading-font);
+    font-weight: 400;
+    padding-top: 100px;
+}
+
+input[type="email"]{
+    width: calc(100% / 60px);
+    height: 34px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+    padding-left: 10px;
+    margin-bottom: 50px; 
+   /* icon inside input field */
+}
+
+::placeholder {
+ color: rgb(226, 226, 226);
+ font-family: var(--body-font);
+ font-size: .8rem;
+}
+
+#footer-logo {
+/* controlling svgs */
+}
+
+#footer-paragraph {
+    font-family: var(--body-font);
+    line-height: 1.5rem;
+    padding-bottom: 18px;
+}
+
+i {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+#footer-nav {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--body-font)
+   
+}
+
+.footer-list {
+  margin-bottom: 15px;
+}
+
+.footer-list:nth-child(3){
+    margin-bottom: 50px;
+}
+
+li a {
+     color: var(--white);
+     text-decoration: none;
+}
+
+#copyright-paragraph {
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: .8rem;
+    position: relative;
+    
+
+}
+

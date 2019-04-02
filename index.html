@@ -55,7 +55,6 @@
         <p class="second-paragraph" id="bottom-paragraph">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
         once signed in to your app, your users can start chatting immediately.</p>
       </section>
-
     </div>
     <div id="button-wrapper">
       <h2 class="second-headings size-heading">Ready To Build Your Community?</h2>
@@ -65,28 +64,31 @@
   
   <!-- Footer, this contains the links, social media icons, and copyright -->
   <footer>
-    <form action="#" method="POST">
-      <h3>Subscribe</h3>
-      <input type="email" name="user-email" placeholder="email@example.com">
-    </form>
-    <section>
-      <img src="images/logo.svg" alt="Huddle logo, placed inside the footer">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt risus eget 
-      vestibulum. Integer vel ligula dictum.</p>
-      <i class="fab fa-facebook"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-twitter-square"></i>
-      <nav>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">What We Do</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Career</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </nav>
-      <p>&copy; 2018 Huddle Copyright</p>
-      <!-- <img src="images/bg-footer-mobile.png" srcset="images/bg-footer-mobile.png 375w, images/bg-footer-desktop.png 1440w" alt="Footer image"> -->
-    </section>
+    <div class="footer-container">
+      <form action="#" method="POST">
+        <h3 id="footer-header">Subscribe</h3>
+        <input type="email" name="user-email" placeholder="email@example.com">
+      </form>
+      <section>
+        <img src="images/logo.svg" alt="Huddle logo, placed inside the footer" id="footer-logo">
+        <p id="footer-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt risus eget 
+          vestibulum. Integer vel ligula dictum.</p>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+          <nav id="footer-nav">
+            <li class="footer-list"><a href="#">About Us</a></li>
+            <li class="footer-list"><a href="#">What We Do</a></li>
+            <li class="footer-list"><a href="#">FAQ</a></li>
+            <li class="footer-list"><a href="#">Career</a></li>
+            <li class="footer-list"><a href="#">Blog</a></li>
+            <li class="footer-list"><a href="#">Contact Us</a></li>
+          </nav>
+        </section>
+      </div>
+       <p id="copyright-paragraph">&copy; 2018 Huddle Copyright
+         <img src="images/bg-footer-mobile.png" alt="Footer image" >
+      </p>
   </footer>
 </body>
 </html>
