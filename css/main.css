@@ -142,23 +142,51 @@ footer {
 }
 
 input[type="email"]{
-    width: calc(100% / 60px);
-    height: 34px;
+    width: 96%;
+    height: 45px;
     border: none;
-    border-radius: 2px 0 0 2px;
+    border-radius: 2px;
     padding-left: 10px;
     margin-bottom: 50px; 
+    font-family: var(--body-font);
    /* icon inside input field */
+}
+
+.input-with-icon{
+    position: relative;
+}
+
+.fas {
+    display: inline-block;
+    margin-right: 0;
+    font-size: 25px;
+
+}
+
+.input-with-icon i {
+    position: absolute;
+    right: 0;
+    top: 140px;
+    padding: 11px 20px;
+    color: var(--white);
+    
+}
+
+.input-with-icon.input-bg i {
+    background:linear-gradient(50deg, #ffffff -190%, hsl(322, 100%, 66%) 80%, #ffffff 150%);
+    color: #fff;
+    border-radius: 0 2px 2px 0;
 }
 
 ::placeholder {
  color: rgb(226, 226, 226);
  font-family: var(--body-font);
  font-size: .8rem;
+ 
 }
 
-#footer-logo {
- fill: white;
+object{
+    padding-bottom: 25px;
 }
 
 #footer-paragraph {
@@ -197,8 +225,7 @@ li a {
     text-align: center;
     font-family: var(--body-font);
     font-size: .8rem;
+    margin-bottom: 0;
     position: relative;
-    
-
+    top: 90px;
 }
-
