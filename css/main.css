@@ -13,6 +13,10 @@
     --vertical-spacing: 70px;
 }
 
+
+/******************************* 
+        Layout Section
+*******************************/
 .container,
 main,
 .footer-container{
@@ -129,6 +133,10 @@ li {
     background: linear-gradient(50deg, #ffffff -190%, hsla(322, 100%, 66%, 0.863) 80%, #ffffff 150%);
     margin-top: 40px;
 }
+
+/***************************************
+            Footer Section
+****************************************/
 
 footer {
     background-color: var(--dark-cyan);
