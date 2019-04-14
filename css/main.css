@@ -157,8 +157,15 @@ input[type="email"]{
     padding-left: 10px;
     margin-bottom: 50px; 
     font-family: var(--body-font);
-   /* icon inside input field */
 }
+
+.header-logo{
+    background: var(--accent-color);
+}
+
+/************************************* 
+           Footer Icons
+*************************************/
 
 .input-with-icon{
     position: relative;
@@ -191,10 +198,6 @@ input[type="email"]{
  font-family: var(--body-font);
  font-size: .8rem;
  
-}
-
-object{
-    padding-bottom: 25px;
 }
 
 #footer-paragraph {
